@@ -1,0 +1,22 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page-container {
+  background-color: black;
+}
+
+.image {
+  width: 100%;
+  object-fit: cover;
+  height: 200px;
+  opacity: 0;
+  transition: 150ms;
+}
+
+.show {
+  opacity: 1;
+}
